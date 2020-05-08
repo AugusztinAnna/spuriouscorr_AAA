@@ -4,3 +4,4 @@ requests
 gunicorn
 gspread
 gspread-pandas
+oauth2client
