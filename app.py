@@ -142,6 +142,6 @@ def update_output2(variables_update):
 
 server = app.server
 
-if __name__=="__main__":
+if __name__ == "__main__":
 
-    app.run_server(debug = True)
+    app.run_server(debug=True)
