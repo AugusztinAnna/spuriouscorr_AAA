@@ -10,7 +10,6 @@ import pandas as pd
 #players_all = pd.read_csv('data_final_10000.csv')
 
 from data_processing import player_all
-players_all = pd.read_csv('data_final_10000.csv')
 players_all['len_name'] = players_all['name'].str.len()
 players_all = players_all.drop_duplicates(subset='playerId')
 #app
@@ -145,4 +144,4 @@ server = app.server
 
 if __name__=="__main__":
 
-    app.run_server(debug = False, port=5001)
+    app.run_server(debug = True)
