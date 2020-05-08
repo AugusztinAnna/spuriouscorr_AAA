@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "final-horn-augusztin-aaa",
+  "private_key_id": "42158bff882000367f3a32482765f3041a31c95f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCj7CQLi88gHO/j\n3DYyxgNBLfu9HJjG2YL1Q3/SbkzO8Pn0ZgJeOocYH9vT+ZOHrxEP7XL6RtWmxlW5\nb+drN8duzyzCF4BGnER1SYOngbiwxMQ8ZnwQ36Y0sc/vHvYgxGaIKSW2F5IQ8XAz\nGBmo2bpXLJ6Z8u8ZRnzewwh2P+prumE6tzqnX7tJwHtB0Ub+cQ/zjj5XpIrlXkrx\naIv0oRcWFTLzuSL09wRCROGpzWw2RCUg6Hl7KX+N48cSC2rd9wePdublREaYtpkn\nPM46oC2YBzoLzlyqgXL9qFK8kpFRbiwfouhjkixuBlnh6O6JTJpR7oy0+t4S9m+n\n4ndOv/gxAgMBAAECggEAGRUM/udJrjQ/ULJlaKd74AFVP76ccfDeZQELEfvmrNOa\nq5bgTeLOwRY+4NSTinNzPOisazdjgb1faJyC4JkMXxw8UQafji5jGz9AceUbiZDS\nJhvYaAyQtgdvNbubFbB3r+X76zz4ELeg33CUnI2UQbqGGjBd/ZQXj05wgQeOqyT+\n0LYjzRXJ5n6ug8xEtqwFNZ2BFfV/WKeCYW7pC+iL0Grm13WLy0zLw/lvSoXOrZWS\n6ogQq0RKlCtnI9ajSCUcoEd9AJuQsdFWeb1YqulZOWR0dPG5qtY5YMiDxAxveKKS\na0nUtJNcaWhbySFR886DoPstm6+Jf40ScXnqJ3SRQQKBgQDdsUgzLbDGqBM9Mpj1\np7VXwLuW3KaWH/QydQiYICnPa4bCoL46n2lfIJq5sOUQ1DmoA+C74mvNka8YsPN2\nLa/Ilv0DU1o75mwQnlBCFWC0dtxg/JloiWJKhu6F9kGW1U/44YRnhoOsI2kwo9H8\nuiylo1Obbne/nRb2+WZmynEO/QKBgQC9SjNhqW6mTYUV96mmu7STFuBe5BqDxy35\nn5I7PONS38pmDW42olP5dUP1bUomz0vuWu/367w38nRQ3LVWCM0ZDP+GB/GQooOB\naRGnz9Q/+lI3eq1hrvYAJ2/a9EM0j3etHo88y0l/dHYFXMw4cXlsEPi4HtzY14fO\nfpWAF7EGRQKBgQCSqSG2mdeE1NRFfB+tBFH3x81SNI8QaftHFh2lZkHCssPoJicy\n6Rrwj8VMazZfN8cc29Pk+BmRWXuYvheSaw8LiLfBZ3cegYWkSNeXoETlnmyUzQdA\nHQMlgrZxcURa4KuTXr4VLuwVCSghwX69zvySZ8Z74UzfOrFimgOgpPS+kQKBgQCq\nLw4nHhgXeNbQu0xSVayyGf08E0UreWaCac8lZ0bSedYVDroqcKOjQqUJAWuLnRCd\nijD5633bpyaglO6MHXmYrjEGJhoveY1WSkrPX3Fq2/oTWz6K9qzB0rMkXjwWA28L\nvM/3TqYT63c4twf9LziFynRzxXu1kYHOS8zJz4MfKQKBgG4pHI5MfRPPIgDfn9UG\nZx1w+9XS8Ovrdu64RxLiUHyzE9w7M99MMc7gvmEYF3W1PdHN4ZwiMOqlyqbzE+e1\ncw2tRyLWyBocgdAx+Of2WAwfcux1jhWs1BeBQI9+D8GHwCxJKvK5pi9Rpx2VbG7r\n6v2+jOlyCTL4USD68eLaGokp\n-----END PRIVATE KEY-----\n",
+  "client_email": "augusztinhornprog@final-horn-augusztin-aaa.iam.gserviceaccount.com",
+  "client_id": "107464292765534576476",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/augusztinhornprog%40final-horn-augusztin-aaa.iam.gserviceaccount.com"
+}
