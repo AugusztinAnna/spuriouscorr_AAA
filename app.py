@@ -141,6 +141,7 @@ def update_output2(variables_update):
    
     return go.Figure(data=[heat], layout = layout)
 
+server = app.server
 
 if __name__=="__main__":
 
