@@ -6,12 +6,17 @@ import dash_table
 import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
+import numpy as np
 #open
 #players_all = pd.read_csv('data_final_10000.csv')
 
 from data_processing import players_all
 players_all['len_name'] = players_all['name'].str.len()
 players_all = players_all.drop_duplicates(subset='playerId')
+players_all["BMI"] = players_all["BMI"].replace(r'^\s*$', np.nan, regex=True)
+players_all['BMI'] = players_all['BMI'].astype(float)
+players_all["ratings"] = players_all["ratings"].replace(r'^\s*$', np.nan, regex=True)
+players_all['ratings'] = players_all['ratings'].astype(float)
 #app
 #general attributes to the dash
 external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
