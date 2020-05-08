@@ -9,7 +9,7 @@ import pandas as pd
 #open
 #players_all = pd.read_csv('data_final_10000.csv')
 
-from data_processing import player_all
+from data_processing import players_all
 players_all['len_name'] = players_all['name'].str.len()
 players_all = players_all.drop_duplicates(subset='playerId')
 #app
