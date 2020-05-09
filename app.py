@@ -36,7 +36,7 @@ personal_attributes = [{"label":'Height', "value":'height'}, {"label":"Weight", 
 performance_variables = players_all.columns.tolist()[6:-2]
 extra_filters = ['goals','field','yellow_card','red_card',"goal_keeper"]
 figure1 = px.scatter(players_all, x="BMI", y="ratings", 
-                     marginal_y="rug", marginal_x="histogram",
+                     marginal_y="histogram", marginal_x="histogram",
                      color_continuous_scale=px.colors.sequential.Viridis)
 
 #Correlogram
@@ -123,7 +123,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children 
 )
 def update_output(value1,value2, value3):
     figure1 = px.scatter(players_all, x=value1, y=value2, color=value3, 
-                         marginal_y="rug", marginal_x="histogram", 
+                         marginal_y="histogram", marginal_x="histogram", 
                          color_continuous_scale=px.colors.sequential.Viridis)
     return figure1
 
