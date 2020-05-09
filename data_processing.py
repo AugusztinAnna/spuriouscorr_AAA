@@ -13,7 +13,7 @@ creds = ServiceAccountCredentials.from_json_keyfile_name(
 client = gspread.authorize(creds)
 
 players_all = pd.DataFrame(
-    client.open("data_final_10000")
+    client.open("data_final_all")
     .get_worksheet(0)
     .get_all_records()
 )
